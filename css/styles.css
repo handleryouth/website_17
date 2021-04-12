@@ -1,0 +1,226 @@
+/*for font*/
+.barlow-font{
+  font-family: 'Barlow', sans-serif;
+}
+
+.barlow-condensed-font{
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+/*round background*/
+.round-background{
+  width: 41em;
+  height: 28em;
+  background-color:hsl(231, 7%, 65%);
+  opacity: 0.3;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+
+
+/*navigation bar*/
+.offer{
+  display:flex;
+  margin-right: 5em;
+}
+
+.offer-list{
+  margin: 0 1rem;
+}
+
+.navbar-properties{
+  margin-top:2rem;
+  margin-left:5em;
+  margin-right:10em;
+}
+
+.nav-link{
+  font-weight:bolder;
+  letter-spacing:1px;
+}
+
+
+/*main body*/
+.main-body{
+  display:flex;
+  flex-direction:row;
+
+}
+
+/*for-left-section*/
+.new-border{
+  border: 2px solid;
+  padding: 0.3rem 1rem;
+  border-radius:50px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  background-color: hsl(231, 7%, 65%);
+  border-width: 0;
+  color: white;
+}
+
+.left-small-title{
+  font-size:1.2rem;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.left-small-title1{
+  letter-spacing:4px;
+  margin-left: 1em;
+}
+
+
+.left-section-header{
+  font-size: 5em;
+  font-weight: bolder;
+}
+
+.left-section-description{
+  font-size: 1.3em;
+  font-weight: lighter;
+  line-height: 1.8;
+}
+
+.demo-button{
+  border: none;
+  padding: 0.8rem 0;
+  width: 10em;
+  border-radius: 5px;
+  background-color: hsl(0, 100%, 68%);
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.demo-button:hover{
+  transition: all 0.5s ease;
+  opacity: 0.7;
+}
+
+.demo-button-description{
+  font-size: 1.3rem;
+  margin-left: 1em;
+  letter-spacing: 5px;
+}
+
+.curios-button{
+  margin-top: 4rem;
+}
+
+
+
+.left-section, .right-section{
+  align-items:center;
+  position: relative;
+
+}
+
+.left-section{
+  margin-top: auto;
+  margin-left: 5rem;
+  top: 5em;
+}
+
+
+/*for right section*/
+.right-section{
+  top: 5em;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 34em;
+}
+
+
+.right-section-image{
+  width:120%;
+  position: relative;
+  top: 4em;
+  left: 2em;
+}
+
+@media(max-width:1192px){
+  .left-section-header{
+    font-size: 3.5rem;
+  }
+}
+
+
+@media(max-width:1077px){
+  .left-section{
+  margin-top: 4em;
+  }
+
+.left-section-header{
+  font-size: 3.5rem;
+}
+
+.right-section{
+  top:4em;
+  width: 49em;
+}
+
+.right-section-image{
+  width: 96%;
+  position: relative;
+  top: 4em;
+  left: 6em;
+}
+
+.demo-button{
+  width: 10em;
+  font-size: 0.8em;
+}
+
+.demo-button-description{
+  font-size: 0.8em;
+}
+
+}
+
+/*mobile version*/
+@media(max-width:992px){
+
+  .round-background{
+    left: 50%;
+    width: 50%;
+  }
+
+
+  .navbar-properties{
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+
+  .main-body{
+    display:flex;
+    flex-direction:column-reverse;
+  }
+
+  .left-section{
+    margin-left: 2em;
+  }
+
+  .right-section{
+    width:100%;
+    overflow-x:hidden;
+    overflow-y: auto;
+    height:23em;
+  }
+
+  .right-section-image{
+    width:120%;
+    position: relative;
+    top: 2em;
+    left: 3em;
+  }
+
+  .curios-button{
+    margin-top:2em;
+  }
+
+}

@@ -184,11 +184,28 @@
 /*mobile version*/
 @media(max-width:992px){
 
+  .offer{
+    flex-direction: column;
+    margin: 0;
+    text-align:center;
+  }
+
+  .login-class{
+    margin: 0 auto;
+  }
+
   .round-background{
     left: 50%;
     width: 50%;
   }
 
+  .navbar-background{
+    background-color:white;
+  }
+
+  .navbar-underline{
+    border-bottom: 3px solid gray;
+  }
 
   .navbar-properties{
     margin-left: 3em;

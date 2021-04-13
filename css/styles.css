@@ -195,8 +195,8 @@
   }
 
   .round-background{
-    left: 50%;
-    width: 50%;
+    left: 40%;
+    width: 60%;
   }
 
   .navbar-background{
@@ -220,6 +220,7 @@
 
   .left-section{
     margin-left: 2em;
+    margin-top: 1em;
   }
 
   .right-section{
@@ -240,4 +241,25 @@
     margin-top:2em;
   }
 
+  .demo-button-description{
+    font-size: 1rem;
+    letter-spacing: 0;
+  }
+
+}
+
+
+@media(max-width:443px){
+  .left-section-header{
+    font-size: 2.6rem;
+  }
+}
+
+
+@media(max-width:341px){
+  .left-small-title1{
+    letter-spacing: 2px;
+    margin-left: 1em;
+    font-size: 1.2rem;
+  }
 }

@@ -9,8 +9,8 @@
 
 /*round background*/
 .round-background{
-  width: 41em;
-  height: 28em;
+  width: 42%;
+  height: 95%;
   background-color:hsl(231, 7%, 65%);
   opacity: 0.3;
   position: absolute;
@@ -35,7 +35,6 @@
 .navbar-properties{
   margin-top:2rem;
   margin-left:5em;
-  margin-right:10em;
 }
 
 .nav-link{
@@ -145,6 +144,10 @@
 @media(max-width:1192px){
   .left-section-header{
     font-size: 3.5rem;
+  }
+
+  .round-background{
+    width: 47%;
   }
 }
 

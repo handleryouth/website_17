@@ -219,11 +219,13 @@
   .main-body{
     display:flex;
     flex-direction:column-reverse;
+    padding-bottom:10rem;
   }
 
   .left-section{
     margin-left: 2em;
     margin-top: 1em;
+    margin-bottom: 2em;
   }
 
   .right-section{
